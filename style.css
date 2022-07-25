@@ -1,0 +1,35 @@
+.race-box {
+  height: 50VH;
+  width: 80VW;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  border-color: black;
+  border-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: solid;
+}
+
+.big-height {
+  height: 10VH;
+  width: 77.5VW;
+}
+
+.page-break {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.border-black {
+  border-color: black;
+  border-width: 1px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  width: 80VW;
+  height: 20VH;
+}
