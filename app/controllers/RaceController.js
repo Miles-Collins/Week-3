@@ -1,4 +1,4 @@
-import { AppState } from "./AppState.js";
+import { AppState } from "../services/AppState.js";
 console.log('controller loaded')
 
 function _drawRacers() {
@@ -10,22 +10,16 @@ function _drawRacers() {
   document.getElementById('toTheRaces').innerHTML = template
 }
 
-function _moveRacers() {
-  let Racers = AppState.racers
-
-}
-
-function _reset() {}
+// function _moveRacers() {
+//   greeting()
+// }
 
 class Controller {
   constructor(){
     console.log("Working?")
     _drawRacers()
   }
-
-  startRace() {
-    setInterval
-  }
+  greeting(){}
 }
 
 

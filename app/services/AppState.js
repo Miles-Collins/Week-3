@@ -1,4 +1,4 @@
-import {Racer} from "./Racers.js"
+import { Racer } from "../models/Racers.js"
 
 export const AppState = {
 

@@ -11,8 +11,3 @@ export class Racer{
     <div class="col-12 bg-dark big-height text-light"><img class="img-fluid tiny" src=${this.img} alt=""></div>
     `
   }
-
-  move() {
-    this.img 
-  }
-}
